@@ -11,6 +11,7 @@ public class BishopBlack implements Figure {
         position = ps;
     }
 
+//    Stores the current position of the bishop on the board.
     @Override
     public Cell position() {
         return position;
